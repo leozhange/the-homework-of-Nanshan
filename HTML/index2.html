@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            2022211792-张鞒议-第一次作业
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            .main{
+                width: auto;
+                height: 700px;
+                background: #ccc;
+                display: flex;
+                flex-direction: column;
+            }
+            .main div{
+                
+                border: 2px solid #666; 
+            }
+            .flex1{
+                flex: 1 1 auto;
+                background: blue;
+            }
+            .flex2{
+                flex: 6;
+                display: flex;
+                background: green;
+            }
+            .flex3{
+                flex: 6;
+                display: flex;
+                background: pink;
+            }
+            .flex4{
+                flex: 1 1 auto;
+                background: orange;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="main">
+            <div class="flex1">1</div>
+            <div class="flex2">
+                <div class="flex2">2.1</div>
+                <div class="flex3">2.2</div>
+            </div>
+            <div class="flex4">3</div>
+        </div>
+    </body>
